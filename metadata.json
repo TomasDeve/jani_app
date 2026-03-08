@@ -1,0 +1,5 @@
+{
+  "name": "Escape Room da Radioatividade",
+  "description": "A password entry system for a laboratory escape room game. Users must enter a 10-digit code to unlock the system.",
+  "requestFramePermissions": []
+}
