@@ -244,12 +244,12 @@ export default function EscapeRoom() {
         </div>
 
         {/* Logo / Image Placeholder - Banner Format */}
-        <div className="w-full max-w-3xl h-40 md:h-64 flex items-center justify-center overflow-hidden relative group shrink-0">
+        <div className="w-full max-w-3xl relative group shrink-0">
             {/* Placeholder for user image - Using a radioactive theme image */}
             <img 
               src="https://i.ibb.co/pvNcpkpS/Gemini-Generated-Image-2bstk32bstk32bst.png" 
               alt="Radioactive Escape Room Banner" 
-              className="absolute inset-0 w-full h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-500"
+              className="w-full h-auto rounded-xl border-2 border-yellow-500/40 shadow-[0_0_20px_rgba(234,179,8,0.15)] opacity-90 group-hover:opacity-100 transition-opacity duration-500"
             />
         </div>
 
