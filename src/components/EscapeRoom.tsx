@@ -4,10 +4,10 @@ import { Lock, Unlock, AlertCircle, CheckCircle } from 'lucide-react';
 
 // CONFIGURATION: Define the 5-digit codes for each of the 4 levels
 const LEVELS = [
-  { code: "12345", id: 1 },
-  { code: "67890", id: 2 },
-  { code: "54321", id: 3 },
-  { code: "09876", id: 4 }
+  { code: "31452", id: 1 },
+  { code: "52143", id: 2 },
+  { code: "24513", id: 3 },
+  { code: "13254", id: 4 }
 ];
 
 export default function EscapeRoom() {
@@ -170,7 +170,7 @@ export default function EscapeRoom() {
             PARABÉNS!
           </h1>
           <p className="text-xl md:text-2xl text-green-200 font-mono uppercase tracking-widest animate-pulse">
-            Você passou para a próxima sala.
+            Você passou para a próxima fase.
           </p>
           <p className="text-sm text-green-400 mt-6 font-mono">
             Carregando próximo nível...
@@ -264,7 +264,7 @@ export default function EscapeRoom() {
           </p>
           {/* Level Indicator */}
           <div className="mt-2 inline-block bg-yellow-500/20 border border-yellow-500/50 px-4 py-1 rounded text-yellow-400 font-bold tracking-widest">
-            SALA {currentLevel + 1} DE {LEVELS.length}
+            FASE {currentLevel + 1} DE {LEVELS.length}
           </div>
         </div>
 
